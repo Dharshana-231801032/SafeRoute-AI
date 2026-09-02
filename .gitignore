@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large data files (never push to GitHub)
+data/
+*.csv
+*.parquet
+*.pbf
+*.pkl
+
+# Saved models (too large for GitHub)
+models/
+
+# Reports / generated figures
+reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
